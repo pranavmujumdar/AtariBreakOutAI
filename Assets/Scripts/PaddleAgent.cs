@@ -12,6 +12,22 @@ public class PaddleAgent : Agent
     public float speed = 15f;
     public float rightBound = 8f;
     public float leftBound = -8f;
+    public int noOfBricksLeft = 27;
+
+    public GameObject area;
+    public GameObject ball;
+    [HideInInspector]
+    public BreakoutArea areaSettings;
+
+
+    [HideInInspector]
+    public BallBehavior ballSettings;
+    void Awake()
+    {
+        
+        areaSettings = area.GetComponent<BreakoutArea>();
+        ballSettings = ball.GetComponent<BallBehavior>();
+    }
     // Start is called before the first frame update
     void Start()
     {
@@ -31,11 +47,26 @@ public class PaddleAgent : Agent
  */
     public void Died()
     {
-        Debug.Log("Here in Died");
+        Debug.Log("Died");
         AddReward(-1f);
         EndEpisode();
     }
-
+    public void Scored()
+    {
+        Debug.Log("Scored");
+        noOfBricksLeft--;
+        AddReward(1f);
+        if (noOfBricksLeft == 0)
+        {
+            AddReward(5f);
+            EndEpisode();
+        }
+    }
+    public void hitPaddle()
+    {
+        Debug.Log("Hit Paddle");
+        AddReward(0.5f);
+    }
 
     public override void OnActionReceived(float[] vectorAction)
     {
@@ -62,17 +93,17 @@ public class PaddleAgent : Agent
         float x = Input.GetAxis("Horizontal") * speed * Time.deltaTime;
         if (x < 0)
         {
-            Debug.Log("going left");
+            //Debug.Log("going left");
             action[0] = 0;
         }
         else if(x>0)
         {
-            Debug.Log("Going Right");
+            //Debug.Log("Going Right");
             action[0] = 1;
         }
         else
         {
-            Debug.Log("Standing");
+            //Debug.Log("Standing");
             action[0] = 2;
         }
         return action;
@@ -82,6 +113,8 @@ public class PaddleAgent : Agent
         m_AgentRb.velocity = Vector3.zero;
         transform.position = startPos;
         RandomizeX();
+        areaSettings.resetArea();
+        ballSettings.resetBall();
     }
 
     private void RandomizeX()
@@ -101,6 +134,7 @@ public class PaddleAgent : Agent
     void Update()
     {
         var pos = transform.position;
+
         transform.position = new Vector3(Mathf.Clamp(pos.x, leftBound, rightBound), pos.y, pos.z);
     }
 }
