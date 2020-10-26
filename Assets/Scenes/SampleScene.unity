@@ -1418,6 +1418,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 922448581662966967, guid: 7c34414a4fb01004c8885ea2a511d85e,
+        type: 3}
+      propertyPath: m_Name
+      value: Right Rays
+      objectReference: {fileID: 0}
     - target: {fileID: 2295865147508424757, guid: 7c34414a4fb01004c8885ea2a511d85e,
         type: 3}
       propertyPath: m_BehaviorType
@@ -1432,6 +1437,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2295865147668146734, guid: 7c34414a4fb01004c8885ea2a511d85e,
+        type: 3}
+      propertyPath: m_Name
+      value: Left Rays
       objectReference: {fileID: 0}
     - target: {fileID: 2295865148225426400, guid: 7c34414a4fb01004c8885ea2a511d85e,
         type: 3}

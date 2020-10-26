@@ -47,13 +47,13 @@ public class PaddleAgent : Agent
  */
     public void Died()
     {
-        Debug.Log("Died");
-        AddReward(-1f);
+        // Debug.Log("Died");
+        AddReward(-2f);
         EndEpisode();
     }
     public void Scored()
     {
-        Debug.Log("Scored");
+        //Debug.Log("Scored");
         noOfBricksLeft--;
         AddReward(1f);
         if (noOfBricksLeft == 0)
@@ -65,7 +65,7 @@ public class PaddleAgent : Agent
     }
     public void hitPaddle()
     {
-        Debug.Log("Hit Paddle");
+        // Debug.Log("Hit Paddle");
         AddReward(0.5f);
     }
 

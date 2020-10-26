@@ -12,13 +12,13 @@ public class CollisionDetection : MonoBehaviour
         if (collision.gameObject.CompareTag("DeadZone"))
         {
             //Debug.Log("Dead");
-            Debug.Log(collision.gameObject.tag);
+            //Debug.Log(collision.gameObject.tag);
             agent.Died();
         }
         if (collision.gameObject.CompareTag("Brick"))
         {
             //Debug.Log("Dead");
-            Debug.Log(collision.gameObject.tag);
+            // Debug.Log(collision.gameObject.tag);
             agent.Scored();
         }
         if (collision.gameObject.CompareTag("Paddle"))
