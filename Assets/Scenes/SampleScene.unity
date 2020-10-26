@@ -133,6 +133,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BreakoutArea (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 2295865148225426400, guid: 7c34414a4fb01004c8885ea2a511d85e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2295865148225426402, guid: 7c34414a4fb01004c8885ea2a511d85e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -201,6 +206,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BreakoutArea (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2295865148225426400, guid: 7c34414a4fb01004c8885ea2a511d85e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2295865148225426402, guid: 7c34414a4fb01004c8885ea2a511d85e,
         type: 3}
@@ -271,6 +281,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BreakoutArea (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 2295865148225426400, guid: 7c34414a4fb01004c8885ea2a511d85e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2295865148225426402, guid: 7c34414a4fb01004c8885ea2a511d85e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -279,7 +294,7 @@ PrefabInstance:
     - target: {fileID: 2295865148225426402, guid: 7c34414a4fb01004c8885ea2a511d85e,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 56.8
+      value: 147.1
       objectReference: {fileID: 0}
     - target: {fileID: 2295865148225426402, guid: 7c34414a4fb01004c8885ea2a511d85e,
         type: 3}
@@ -340,6 +355,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BreakoutArea (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 2295865148225426400, guid: 7c34414a4fb01004c8885ea2a511d85e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2295865148225426402, guid: 7c34414a4fb01004c8885ea2a511d85e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -348,7 +368,7 @@ PrefabInstance:
     - target: {fileID: 2295865148225426402, guid: 7c34414a4fb01004c8885ea2a511d85e,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -51
       objectReference: {fileID: 0}
     - target: {fileID: 2295865148225426402, guid: 7c34414a4fb01004c8885ea2a511d85e,
         type: 3}
@@ -501,6 +521,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BreakoutArea (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 2295865148225426400, guid: 7c34414a4fb01004c8885ea2a511d85e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2295865148225426402, guid: 7c34414a4fb01004c8885ea2a511d85e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -509,7 +534,7 @@ PrefabInstance:
     - target: {fileID: 2295865148225426402, guid: 7c34414a4fb01004c8885ea2a511d85e,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -27.99
+      value: 80.5
       objectReference: {fileID: 0}
     - target: {fileID: 2295865148225426402, guid: 7c34414a4fb01004c8885ea2a511d85e,
         type: 3}
@@ -569,6 +594,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BreakoutArea (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2295865148225426400, guid: 7c34414a4fb01004c8885ea2a511d85e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2295865148225426402, guid: 7c34414a4fb01004c8885ea2a511d85e,
         type: 3}
@@ -677,10 +707,10 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.3
-  far clip plane: 1000
+  far clip plane: 50
   field of view: 60
   orthographic: 1
-  orthographic size: 16.062756
+  orthographic size: 14.89
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -722,6 +752,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BreakoutArea (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 2295865148225426400, guid: 7c34414a4fb01004c8885ea2a511d85e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2295865148225426402, guid: 7c34414a4fb01004c8885ea2a511d85e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -730,7 +765,7 @@ PrefabInstance:
     - target: {fileID: 2295865148225426402, guid: 7c34414a4fb01004c8885ea2a511d85e,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 56.8
+      value: 79.8
       objectReference: {fileID: 0}
     - target: {fileID: 2295865148225426402, guid: 7c34414a4fb01004c8885ea2a511d85e,
         type: 3}
@@ -791,6 +826,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BreakoutArea (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 2295865148225426400, guid: 7c34414a4fb01004c8885ea2a511d85e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2295865148225426402, guid: 7c34414a4fb01004c8885ea2a511d85e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -799,7 +839,7 @@ PrefabInstance:
     - target: {fileID: 2295865148225426402, guid: 7c34414a4fb01004c8885ea2a511d85e,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 29.21
+      value: 119.3
       objectReference: {fileID: 0}
     - target: {fileID: 2295865148225426402, guid: 7c34414a4fb01004c8885ea2a511d85e,
         type: 3}
@@ -860,6 +900,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BreakoutArea (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 2295865148225426400, guid: 7c34414a4fb01004c8885ea2a511d85e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2295865148225426402, guid: 7c34414a4fb01004c8885ea2a511d85e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -868,7 +913,7 @@ PrefabInstance:
     - target: {fileID: 2295865148225426402, guid: 7c34414a4fb01004c8885ea2a511d85e,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 28.8
+      value: 48.3
       objectReference: {fileID: 0}
     - target: {fileID: 2295865148225426402, guid: 7c34414a4fb01004c8885ea2a511d85e,
         type: 3}
@@ -929,6 +974,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BreakoutArea (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 2295865148225426400, guid: 7c34414a4fb01004c8885ea2a511d85e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2295865148225426402, guid: 7c34414a4fb01004c8885ea2a511d85e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -937,7 +987,7 @@ PrefabInstance:
     - target: {fileID: 2295865148225426402, guid: 7c34414a4fb01004c8885ea2a511d85e,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.1
+      value: -69.6
       objectReference: {fileID: 0}
     - target: {fileID: 2295865148225426402, guid: 7c34414a4fb01004c8885ea2a511d85e,
         type: 3}
@@ -997,6 +1047,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BreakoutArea (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2295865148225426400, guid: 7c34414a4fb01004c8885ea2a511d85e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2295865148225426402, guid: 7c34414a4fb01004c8885ea2a511d85e,
         type: 3}
@@ -1067,6 +1122,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BreakoutArea (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 2295865148225426400, guid: 7c34414a4fb01004c8885ea2a511d85e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2295865148225426402, guid: 7c34414a4fb01004c8885ea2a511d85e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1075,7 +1135,7 @@ PrefabInstance:
     - target: {fileID: 2295865148225426402, guid: 7c34414a4fb01004c8885ea2a511d85e,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 115.3
       objectReference: {fileID: 0}
     - target: {fileID: 2295865148225426402, guid: 7c34414a4fb01004c8885ea2a511d85e,
         type: 3}
@@ -1136,6 +1196,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BreakoutArea (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 2295865148225426400, guid: 7c34414a4fb01004c8885ea2a511d85e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2295865148225426402, guid: 7c34414a4fb01004c8885ea2a511d85e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1144,7 +1209,7 @@ PrefabInstance:
     - target: {fileID: 2295865148225426402, guid: 7c34414a4fb01004c8885ea2a511d85e,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 29.21
+      value: 49.8
       objectReference: {fileID: 0}
     - target: {fileID: 2295865148225426402, guid: 7c34414a4fb01004c8885ea2a511d85e,
         type: 3}
@@ -1204,6 +1269,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BreakoutArea (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2295865148225426400, guid: 7c34414a4fb01004c8885ea2a511d85e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2295865148225426402, guid: 7c34414a4fb01004c8885ea2a511d85e,
         type: 3}
@@ -1279,6 +1349,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BreakoutArea (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 2295865148225426400, guid: 7c34414a4fb01004c8885ea2a511d85e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2295865148225426402, guid: 7c34414a4fb01004c8885ea2a511d85e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1287,7 +1362,7 @@ PrefabInstance:
     - target: {fileID: 2295865148225426402, guid: 7c34414a4fb01004c8885ea2a511d85e,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -27.28
+      value: 88.9
       objectReference: {fileID: 0}
     - target: {fileID: 2295865148225426402, guid: 7c34414a4fb01004c8885ea2a511d85e,
         type: 3}
@@ -1348,10 +1423,25 @@ PrefabInstance:
       propertyPath: m_BehaviorType
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2295865147508424757, guid: 7c34414a4fb01004c8885ea2a511d85e,
+        type: 3}
+      propertyPath: m_BrainParameters.numStackedVectorObservations
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2295865147508424766, guid: 7c34414a4fb01004c8885ea2a511d85e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2295865148225426400, guid: 7c34414a4fb01004c8885ea2a511d85e,
         type: 3}
       propertyPath: m_Name
       value: BreakoutArea
+      objectReference: {fileID: 0}
+    - target: {fileID: 2295865148225426400, guid: 7c34414a4fb01004c8885ea2a511d85e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2295865148225426402, guid: 7c34414a4fb01004c8885ea2a511d85e,
         type: 3}

@@ -12,7 +12,7 @@ public class PaddleAgent : Agent
     public float speed = 15f;
     public float rightBound = 8f;
     public float leftBound = -8f;
-    public int noOfBricksLeft = 27;
+    private int noOfBricksLeft = 27;
 
     public GameObject area;
     public GameObject ball;
@@ -58,6 +58,7 @@ public class PaddleAgent : Agent
         AddReward(1f);
         if (noOfBricksLeft == 0)
         {
+            Debug.Log("All bricks hit!");
             AddReward(5f);
             EndEpisode();
         }
@@ -89,7 +90,7 @@ public class PaddleAgent : Agent
 
         public override float[] Heuristic()
     {
-        var action = new float[2];
+        var action = new float[3];
         float x = Input.GetAxis("Horizontal") * speed * Time.deltaTime;
         if (x < 0)
         {
@@ -115,6 +116,7 @@ public class PaddleAgent : Agent
         RandomizeX();
         areaSettings.resetArea();
         ballSettings.resetBall();
+        noOfBricksLeft = 27;
     }
 
     private void RandomizeX()
